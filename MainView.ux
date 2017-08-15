@@ -1,0 +1,15 @@
+<App>
+    <Native.NeonMapBox ux:Class="MapBoxView">
+    </Native.NeonMapBox>
+    
+   	<ClientPanel>
+        <NativeViewHost Height="200" Width="200">
+            <MapBoxView />
+
+            <Rectangle Layer="Background">
+                <SolidColor Color="#ff0000" />
+                <Stroke Color="#ff0000" Width="2" />
+            </Rectangle>
+        </NativeViewHost>
+    </ClientPanel>
+</App>

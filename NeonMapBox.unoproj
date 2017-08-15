@@ -1,0 +1,23 @@
+{
+  "RootNamespace":"",
+  "Packages": [
+    "Fuse",
+    "FuseJS",
+    "Fuse.GeoLocation"
+  ],
+  "Includes": [
+       "*",
+     "MapView.swift:Swift:iOS",
+     "AnnotationObject.swift:Swift:iOS",
+     "Extension.swift:Swift:iOS",
+  ],
+   "iOS": {
+    "BundleIdentifier": "com.neon.mapboxexample",
+    "PreviewBundleIdentifier": "com.neon.mapboxexample.preview",
+    "PList": {
+        "NSLocationAlwaysUsageDescription": "So you can see your location on the map",
+        "NSLocationWhenInUseUsageDescription": "So you can see your location on the map",
+        "MGLMapboxAccessToken": "pk.eyJ1IjoicGF2ZWxrb3N0ZW5rbyIsImEiOiJjajVmYWYwMW8xMWc0MzNvZGt1ajZhdHlzIn0.v3z5PDM8pAbRZZnCHWka5Q"
+    }
+  }
+}
